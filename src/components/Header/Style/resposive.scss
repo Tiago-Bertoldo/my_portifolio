@@ -4,6 +4,18 @@
         &__left {
             .resposive-btn {
                 display: flex;
+                cursor: pointer;
+                flex-direction: column;
+            
+                div {
+                    width: 25px;
+                    height: 2px;
+                    background-color: white;
+                    margin: 4px;
+                    display: block;
+                    transition: all 0.5s ease;
+                }
+                
             }
             ul {
                 position: absolute;
@@ -12,10 +24,26 @@
                 left: 0;
                 width: 100%;
                 display: none;
+                opacity: .7;
             }
             .resposive-effect {
                 display: flex;
             }
+            .toggle .line-1 {
+                background-color: rgb(151, 148, 148);
+                transform:  rotate(-45deg) translate(-5px , 9px);
+            }
+            .toggle .line-2 {
+               opacity: 0;
+               color: blue;
+            }
+            .toggle .line-3 {
+                background-color: rgb(151, 148, 148);
+                transform:  rotate(45deg) translate(-5px , -10px);
+            }
+            
+
+            
         }
     }
 }
