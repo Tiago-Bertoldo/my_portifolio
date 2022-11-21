@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+.section-home {
+    width: 100%;
+    display: flex;
+    background-color: #0D0D0D;
+    margin: 0 auto;
+    .container-home {
+        display: flex;
+        width: 100%;
+        max-width: 1240px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        &__reseaux {
+            width: 5%;
+        }
+        &__text {
+            width: 50%;
+        }&__photo {
+            width: 40%;
+            min-height: 30rem;
+        }
+    }
+    
+    
+}
+
+.sssss {
+    margin-top: 30em;
+    border: 1px solid black;
+}

@@ -1,0 +1,14 @@
+.container-avatar {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    &__config {
+        margin: 0 auto;
+        img{
+            border-radius: 50%;
+            align-items: center;
+            
+        }
+        
+    }
+}

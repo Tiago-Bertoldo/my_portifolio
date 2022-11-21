@@ -1,0 +1,28 @@
+.section-reseaux {
+    height: 100%;
+    width: 100%;
+    margin: 5em auto;
+    display: flex;
+    &__container {
+        width: 100%;
+        max-width: 1240px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        .reseaux {
+            ul {
+                list-style: none;
+                padding: 1em;
+                font-size: 18pt;
+            }
+            li{
+                display: flex;
+                padding: 0.3em;
+                a {
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}
